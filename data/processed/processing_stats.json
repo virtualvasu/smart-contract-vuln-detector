@@ -5,17 +5,35 @@
   "vulnerable_functions": 1016,
   "safe_functions": 15920,
   "category_stats": {
-    "TOD": {
+    "tx.origin": {
       "contracts_processed": 50,
-      "functions_extracted": 3555,
-      "vulnerable_functions": 205,
-      "safe_functions": 3350
+      "functions_extracted": 2219,
+      "vulnerable_functions": 137,
+      "safe_functions": 2082
+    },
+    "Re-entrancy": {
+      "contracts_processed": 50,
+      "functions_extracted": 2226,
+      "vulnerable_functions": 131,
+      "safe_functions": 2095
     },
     "Unhandled-Exceptions": {
       "contracts_processed": 50,
       "functions_extracted": 2252,
       "vulnerable_functions": 141,
       "safe_functions": 2111
+    },
+    "TOD": {
+      "contracts_processed": 50,
+      "functions_extracted": 3555,
+      "vulnerable_functions": 205,
+      "safe_functions": 3350
+    },
+    "Timestamp-Dependency": {
+      "contracts_processed": 50,
+      "functions_extracted": 2014,
+      "vulnerable_functions": 133,
+      "safe_functions": 1881
     },
     "Overflow-Underflow": {
       "contracts_processed": 50,
@@ -28,24 +46,6 @@
       "functions_extracted": 2149,
       "vulnerable_functions": 128,
       "safe_functions": 2021
-    },
-    "Timestamp-Dependency": {
-      "contracts_processed": 50,
-      "functions_extracted": 2014,
-      "vulnerable_functions": 133,
-      "safe_functions": 1881
-    },
-    "tx.origin": {
-      "contracts_processed": 50,
-      "functions_extracted": 2219,
-      "vulnerable_functions": 137,
-      "safe_functions": 2082
-    },
-    "Re-entrancy": {
-      "contracts_processed": 50,
-      "functions_extracted": 2226,
-      "vulnerable_functions": 131,
-      "safe_functions": 2095
     }
   }
 }

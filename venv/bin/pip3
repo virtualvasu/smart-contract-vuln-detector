@@ -1,4 +1,4 @@
-#!/home/virtualvasu/Desktop/sem5/ml_project/smart-contract-vuln-detector/venv/bin/python3
+#!/home/netweb/vasu/smart-contract-vuln-detector/venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys

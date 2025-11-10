@@ -2,26 +2,44 @@
   "overview": {
     "total_categories": 7,
     "vulnerability_categories": [
-      "TOD",
-      "Unhandled-Exceptions",
-      "Overflow-Underflow",
-      "Unchecked-Send",
-      "Timestamp-Dependency",
       "tx.origin",
-      "Re-entrancy"
+      "Re-entrancy",
+      "Unhandled-Exceptions",
+      "TOD",
+      "Timestamp-Dependency",
+      "Overflow-Underflow",
+      "Unchecked-Send"
     ],
     "total_sol_files": 350,
     "total_csv_files": 350,
     "analysis_tools": [
-      "Securify",
+      "Mythril",
       "Slither",
       "Smartcheck",
-      "Mythril",
       "Oyente",
-      "Manticore"
+      "Manticore",
+      "Securify"
     ]
   },
   "category_statistics": [
+    {
+      "Category": "tx.origin",
+      "sol_files": 50,
+      "csv_files": 50,
+      "total_files": 100
+    },
+    {
+      "Category": "Re-entrancy",
+      "sol_files": 50,
+      "csv_files": 50,
+      "total_files": 100
+    },
+    {
+      "Category": "Unhandled-Exceptions",
+      "sol_files": 50,
+      "csv_files": 50,
+      "total_files": 100
+    },
     {
       "Category": "TOD",
       "sol_files": 50,
@@ -29,7 +47,7 @@
       "total_files": 100
     },
     {
-      "Category": "Unhandled-Exceptions",
+      "Category": "Timestamp-Dependency",
       "sol_files": 50,
       "csv_files": 50,
       "total_files": 100
@@ -45,34 +63,31 @@
       "sol_files": 50,
       "csv_files": 50,
       "total_files": 100
-    },
-    {
-      "Category": "Timestamp-Dependency",
-      "sol_files": 50,
-      "csv_files": 50,
-      "total_files": 100
-    },
-    {
-      "Category": "tx.origin",
-      "sol_files": 50,
-      "csv_files": 50,
-      "total_files": 100
-    },
-    {
-      "Category": "Re-entrancy",
-      "sol_files": 50,
-      "csv_files": 50,
-      "total_files": 100
     }
   ],
   "quality_assessment": {
     "completeness": {
-      "TOD": {
+      "tx.origin": {
+        "sol_files": 50,
+        "csv_files": 50,
+        "match_ratio": 1.0
+      },
+      "Re-entrancy": {
         "sol_files": 50,
         "csv_files": 50,
         "match_ratio": 1.0
       },
       "Unhandled-Exceptions": {
+        "sol_files": 50,
+        "csv_files": 50,
+        "match_ratio": 1.0
+      },
+      "TOD": {
+        "sol_files": 50,
+        "csv_files": 50,
+        "match_ratio": 1.0
+      },
+      "Timestamp-Dependency": {
         "sol_files": 50,
         "csv_files": 50,
         "match_ratio": 1.0
@@ -83,21 +98,6 @@
         "match_ratio": 1.0
       },
       "Unchecked-Send": {
-        "sol_files": 50,
-        "csv_files": 50,
-        "match_ratio": 1.0
-      },
-      "Timestamp-Dependency": {
-        "sol_files": 50,
-        "csv_files": 50,
-        "match_ratio": 1.0
-      },
-      "tx.origin": {
-        "sol_files": 50,
-        "csv_files": 50,
-        "match_ratio": 1.0
-      },
-      "Re-entrancy": {
         "sol_files": 50,
         "csv_files": 50,
         "match_ratio": 1.0
@@ -113,9 +113,9 @@
     ]
   },
   "file_size_statistics": {
-    "mean_size_bytes": 14807.514285714286,
-    "median_size_bytes": 11439.0,
-    "min_size_bytes": 4904,
-    "max_size_bytes": 48638
+    "mean_size_bytes": 12569.314285714287,
+    "median_size_bytes": 12800.0,
+    "min_size_bytes": 2510,
+    "max_size_bytes": 27091
   }
 }

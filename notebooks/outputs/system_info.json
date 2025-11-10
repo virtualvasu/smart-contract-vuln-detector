@@ -1,17 +1,24 @@
 {
-  "timestamp": "2025-11-10T22:54:41.134765",
-  "platform": "Linux-6.14.0-32-generic-x86_64-with-glibc2.39",
-  "python_version": "3.12.3 (main, Aug 14 2025, 17:47:21) [GCC 13.3.0]",
-  "working_directory": "/home/virtualvasu/Desktop/sem5/ml_project/smart-contract-vuln-detector/notebooks",
-  "cuda_available": false,
-  "cuda_version": null,
-  "device_count": 0,
+  "timestamp": "2025-11-11T00:24:34.844865",
+  "platform": "Linux-5.19.0-32-generic-x86_64-with-glibc2.35",
+  "python_version": "3.11.14 (main, Nov 11 2025, 00:18:33) [GCC 11.4.0]",
+  "working_directory": "/home/netweb/vasu/smart-contract-vuln-detector/notebooks",
+  "cuda_available": true,
+  "cuda_version": "12.8",
+  "device_count": 1,
   "packages": {
-    "torch": "2.7.1+cu118",
+    "torch": "2.9.0+cu128",
     "transformers": "4.57.1",
     "pandas": "2.3.3",
     "numpy": "2.3.4",
     "sklearn": "1.7.2"
   },
-  "random_seed": 42
+  "random_seed": 42,
+  "gpu_info": [
+    {
+      "id": 0,
+      "name": "NVIDIA RTX 4000 Ada Generation",
+      "memory_gb": 20.99216384
+    }
+  ]
 }

@@ -20,8 +20,8 @@
     "test": 3344
   },
   "class_distribution": {
-    "train_vulnerable_rate": 0.05911084529505582,
-    "val_vulnerable_rate": 0.049342105263157895,
-    "test_vulnerable_rate": 0.06279904306220095
+    "train_vulnerable_rate": 0.05781499202551834,
+    "val_vulnerable_rate": 0.06339712918660287,
+    "test_vulnerable_rate": 0.05263157894736842
   }
 }

@@ -1,9 +1,9 @@
 
 ✅ Setup Status:
-   • Python 3.12.3 configured
-   • PyTorch 2.7.1+cu118 installed
+   • Python 3.11.14 configured
+   • PyTorch 2.9.0+cu128 installed
    • Transformers 4.57.1 ready
-   • Device: cpu
+   • Device: cuda
    • Random seed: 42
    • CodeBERT model tested
    • Project directories created
