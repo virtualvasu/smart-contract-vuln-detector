@@ -1,4 +1,4 @@
-Requirement already satisfied: matplotlib in /home/netweb/vasu/smart-contract-vuln-detector/venv/lib/python3.11/site-packages (3.10.7)
+Requirement already satisfied: matplotlib in /home/netweb/vasu/smart-contract-vuln-detector/venv/lib/python3.11/site-packages (3.10.6)
 Requirement already satisfied: contourpy>=1.0.1 in /home/netweb/vasu/smart-contract-vuln-detector/venv/lib/python3.11/site-packages (from matplotlib) (1.3.3)
 Requirement already satisfied: cycler>=0.10 in /home/netweb/vasu/smart-contract-vuln-detector/venv/lib/python3.11/site-packages (from matplotlib) (0.12.1)
 Requirement already satisfied: fonttools>=4.22.0 in /home/netweb/vasu/smart-contract-vuln-detector/venv/lib/python3.11/site-packages (from matplotlib) (4.60.1)
@@ -6,6 +6,6 @@ Requirement already satisfied: kiwisolver>=1.3.1 in /home/netweb/vasu/smart-cont
 Requirement already satisfied: numpy>=1.23 in /home/netweb/vasu/smart-contract-vuln-detector/venv/lib/python3.11/site-packages (from matplotlib) (2.3.4)
 Requirement already satisfied: packaging>=20.0 in /home/netweb/vasu/smart-contract-vuln-detector/venv/lib/python3.11/site-packages (from matplotlib) (25.0)
 Requirement already satisfied: pillow>=8 in /home/netweb/vasu/smart-contract-vuln-detector/venv/lib/python3.11/site-packages (from matplotlib) (12.0.0)
-Requirement already satisfied: pyparsing>=3 in /home/netweb/vasu/smart-contract-vuln-detector/venv/lib/python3.11/site-packages (from matplotlib) (3.2.5)
+Requirement already satisfied: pyparsing>=2.3.1 in /home/netweb/vasu/smart-contract-vuln-detector/venv/lib/python3.11/site-packages (from matplotlib) (2.4.7)
 Requirement already satisfied: python-dateutil>=2.7 in /home/netweb/vasu/smart-contract-vuln-detector/venv/lib/python3.11/site-packages (from matplotlib) (2.9.0.post0)
 Requirement already satisfied: six>=1.5 in /home/netweb/vasu/smart-contract-vuln-detector/venv/lib/python3.11/site-packages (from python-dateutil>=2.7->matplotlib) (1.17.0)

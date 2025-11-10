@@ -1,0 +1,48 @@
+{
+  "timestamp": "2025-11-11T01:28:50.234793",
+  "model_path": "/home/netweb/vasu/smart-contract-vuln-detector/results/checkpoints/best_model_codebert_binary_20251111_002909.pt",
+  "configuration": {
+    "attention_layer": -1,
+    "average_heads": true,
+    "top_k_tokens": 20,
+    "min_attention_threshold": 0.01
+  },
+  "examples_analyzed": 4,
+  "visualizations_generated": 4,
+  "attention_statistics": {
+    "max_attention_overall": 0.06712216138839722,
+    "mean_attention_overall": 0.05816718190908432,
+    "attention_entropy_mean": 2.112753391265869,
+    "high_attention_tokens_mean": 0.75
+  },
+  "files_generated": {
+    "html_visualizations": [
+      "/home/netweb/vasu/smart-contract-vuln-detector/results/visualizations/attention_Vulnerable_buggy_40.sol_div.html",
+      "/home/netweb/vasu/smart-contract-vuln-detector/results/visualizations/attention_Vulnerable_buggy_28.sol_totalSupply.html",
+      "/home/netweb/vasu/smart-contract-vuln-detector/results/visualizations/attention_Safe_buggy_48.sol_bug_txorigin36.html",
+      "/home/netweb/vasu/smart-contract-vuln-detector/results/visualizations/attention_Safe_buggy_7.sol_getAddress.html"
+    ],
+    "attention_analysis_plot": "/home/netweb/vasu/smart-contract-vuln-detector/results/visualizations/attention_patterns_analysis.png",
+    "token_importance_csv": "/home/netweb/vasu/smart-contract-vuln-detector/results/visualizations/token_importance_analysis.csv",
+    "interactive_heatmap": "/home/netweb/vasu/smart-contract-vuln-detector/results/visualizations/attention_heatmap_Vulnerable_buggy_40.sol_div.html"
+  },
+  "insights": {
+    "most_attended_tokens_overall": [
+      "supp",
+      "ly",
+      "view",
+      "total",
+      "(",
+      "_",
+      ")",
+      "returns",
+      ";",
+      "uint"
+    ],
+    "attention_patterns_by_vulnerability": {
+      "Safe": "0.05533692",
+      "Vulnerable": "0.06099745"
+    },
+    "prediction_accuracy_analyzed": 0.75
+  }
+}
